@@ -1,237 +1,186 @@
-# CREATING YOUR FIRST README
+# Studio Northern Lights
 
-![Creating your first README hero image](documentation/hero.png)
+Studio Northern Lights is an (imaginary) recording studio located in Northern Sweden. This studio is designed to be the perfect oasis for recording music without distractions. The website features a Home page with an 'About us' section, a Gallery page to view photos of the studio itself as well as the locale and surrounding nature. At the Contacts page there is contact information as well as a section to request a booking.
 
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat=markdown&logoColor=white) ![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/readme-examples?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/readme-examples?style=flat)  ![GitHub Repo stars](https://img.shields.io/github/stars/kera-cudmore/readme-examples?style=social)  ![GitHub forks](https://img.shields.io/github/forks/kera-cudmore/readme-examples?style=social)
+The reason I decided to go with this idea is because of my passion for music, as well as fond memories of my time as an intern in a music studio located in my hometown of Gothenburg, Sweden.
 
-So you're starting to think about your first milestone project, and are brainstorming ideas - but have you thought about your README? This repository (and accompanying webinar) are an introduction to creating your first README - covering what to include, why you need one and how to write it.
+---
+Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
 
-Find the slide show for this webinar [here](https://docs.google.com/presentation/d/19_7r_To5bu7UjnZD87hrzWQi63Ij0YpaRH1XFnPZZe8/edit?usp=sharing)
+Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
 
-- - -
+If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
+
+---
 
 ## CONTENTS
 
-* [Whats A README?](#whats-a-readme)
-* [What Makes a Good README?](#what-makes-a-good-readme)
-* [README Examples](#readme-examples)
-* [How to Write Your README](#how-to-write-your-readme)
-  * [Headings](#headings)
-  * [Links](#links)
-  * [Inserting Images](#inserting-images)
-  * [Italic, Bold & Code](#italic-bold-and-code)
-  * [Strikethrough & Bullet Points](#strikethrough--bullet-points)
-  * [Code Blocks](#code-blocks)
-  * [Tables](#tables)
-* [Nice Extras & Other Interesting Tools](#nice-extras--other-interesting-tools)
-* [Further Reading](#further-reading)
+* [User Experience](#user-experience-ux)
+  * [User Stories](#user-stories)
+
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+
+* [Features](#features)
+  * [General Features on Each Page](#general-features-on-each-page)
+  * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
+
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+
+* [Testing](#testing)
+
 * [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
 
-- - -
+---
 
-## What's a README?
+## User Experience (UX)
 
-A README file should be the source of all information relating to your project.
+👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
 
-It is where another developer (or yourself in a few months time!) can get an overview of your project, like why was this project made, what technology was used, instructions on how to fork or clone the project if they wanted to have a tinker with it, any future implementations planned for the project and if there were any interesting bugs encountered during the build.
+### User Stories
 
-- - -
+Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
 
-## What makes a Good README?
+## Design
 
-You can never have enough detail! you've spent a large amount of time perfecting your first project (and each subsequent project will be even more labour intensive and detailed) and the readme is the place to document and celebrate all those hours.
+👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
 
-The best piece of advice I was given was to try and complete the bulk of the README before you write a single line of code.
+### Colour Scheme
 
-By incorporating this step into the planning stage of your project you will have taken the time to think about what your user stories will be, what colour palette you want to use for your site, what fonts you want to use, how you plan to layout the site responsively and with accessibility in mind and have these documented in your README file before you begin to code your project. The README will then become your roadmap -  it will help you to focus on the project, allow the coding to flow, and prevent you having to complete a whole README at the end of your project when you're suffering from project fatigue!
+Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
 
-- - -
+I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
 
-## README Examples
+### Typography
 
-I have included examples of a [README.md](milestone1-readme.md) and [TESTING.md](milesstone1-testing.md) for you to look over to get an idea of how you can layout your files and what should be included. I have based this off the README's I have created for my own projects, however I would urge you to make sure that you go through your course criteria for your project to make sure that you include everything required in your own README, as the requirements may change at any point.
+If you've imported fonts to use in your project, add some information about them here. You can include information like:
 
-- - -
+Why did you choose the font you have?
+Is this an accessibly friendly font?
+What weights have you included?
 
-## How to Write Your README
+I also like to include an image of the fonts chosen as a reference.
 
-README files are written using markdown, a lightweight plain text syntax.
+[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
 
-There are some really cool features in markdown that you might want to include in your README, and I've included some below. I've also included some links to some further reading on markdown.
+### Imagery
 
-### Headings
+Use this section to explain what sort of imagery you plan to use through your site.
 
-Just like with HTML, markdown has headings. Markdown headings are very similar to HTML headings: there are 6 heading levels, you can only use one level 1 heading per page and ach heading level is smaller than the last.
+### Wireframes
 
-To create a heading in Markdown you use a hash symbol (#) followed by a space and the heading. The number of hashes denotes the level of the heading - so for a level 1 heading you use 1 hash, a level 2 has 2 hashes etc. The example below shows how you would write a level 3 heading:
+Add the images or links for your wireframes here.
 
-  ![Heading Example](documentation/heading-example.png)
+There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
 
-### Links
+Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
 
-Links are also really useful in Markdown, and are really simple to write. There are two ways to include links in your README:  
+## Features
 
-You can paste a link into your README and it will display as a link, <https://www.github.com/kera-cudmore> - but these can throw a markdown lint error, look a bit messy especially if the link is rather lengthy, and sometimes the URL address doesn't make it clear as to what the link redirects to.
+👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
 
-My preferred way to add a link which addresses both these issues is to make a link the following way: place the name of the link that will be visible in the README enclosed in square brackets followed by the link enclosed in parentheses. [View My GitHub Profile Here](https://www.github.com )
+This section can be used to explain what pages your site is made up of.
 
-  ![Link Example](documentation/link-example.png)
+### General features on each page
 
-You can also create a link with headings. When you create a heading, GitHub will generate an ID based on this. This is really useful if you then want to create a link to that heading within your README.  (A good example of this is the contents section.) They are very similar to a link - We need to put the text that will be displayed into the square brackets and then within the parentheses we use a hash followed by the heading - note that we can't use spaces so these need to be changed to a dash)
+If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
 
-![Heading Links Example](documentation/heading-links.png)
+I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
 
-### Inserting Images
+### Future Implementations
 
-Images can be inserted in your README in the same way as a link, if you only want the name of the image to be displayed.
+What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
 
-If you want the image itself to be visible in the README, you just need to place an exclamation mark at the front of the link, example shown below:
+### Accessibility
 
-![Inserting an Image Link Example](documentation/imagelink-example.png)
+Be an amazing developer and get used to thinking about accessibility in all of your projects!
 
-Its important to be mindful of what you use in the square brackets of an image link, as this is what will be displayed on the page if the image fails to load, so make sure to use something descriptive, similar to an image alt tag.
+This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
 
-When using images in your README, its good practice to compress the image first (PNG format seems to work best), I can recommend [tinyPNG](https://tinypng.com/). I then like to keep all images etc used within the README in a folder called *documentation*. This is good practice as it keeps the sites assets seperate from the assets used in your documentation.
+Have you used icons and added aria-labels to enable screen readers to understand these?
+Have you ensured your site meets the minimum contrast requirements?
+Have you chosen fonts that are dyslexia/accessible friendly?
 
-###  Italic, Bold and Code
+Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
 
-*Italic text* we can either use an asterisk or an underscore before and after the text.
+## Technologies Used
 
-**Bold text** we can either use double asterisks or double underscores before and after the text.
+👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
 
-`Code` we enclose the text in backticks.
+### Languages Used
 
-![Styled Text Examples](documentation/styledtext-example.png)
+Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
 
-### Strikethrough & Bullet Points
+### Frameworks, Libraries & Programs Used
 
-~~strikethrough~~ We use double tilder before and after.
+Add any frameworks, libraries or programs used while creating your project.
 
-* Bullet points, we use either an asterisk or a dash.
-  * Nested Bullet Points are created by indenting two spaces
-    * Another Nested Bullet Point
+Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
 
-![Strikethrough & Bullet Point Example](documentation/strikethrough-bullet-example.png)
+A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
 
-To create a numbered list we simply put a number followed by a full stop, then a space before the content.
+## Deployment & Local Development
 
-1. First item
-2. Second item
-3. Third Item
+👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
 
-![Numbered list example code](documentation/numbered-list-example.png)
+### Deployment
 
-### Code Blocks
+Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
 
-Code blocks can be used in Markdown to display a larger block of code. To create a code block you need to prefix the text with three backticks and end with three backticks after.
+### Local Development
 
-Code blocks can be language specific, you simply need to add the language after the first set of backticks - if you don't want to use a specific language, you can use text.
+The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
 
-**Plain Text Code Block:**
+#### How to Fork
 
-```text
-function fibonacci(num, memo) {
-  memo = memo || {};
+Place instructions on how to fork your project here.
 
-  if (memo[num]) return memo[num];
-  if (num <= 1) return 1;
+#### How to Clone
 
-  return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
-}
-```
+Place instructions on how to clone your project here.
 
-**JavaScript Code Block:**
+## Testing
 
-```javascript
-function fibonacci(num, memo) {
-  memo = memo || {};
+Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
 
-  if (memo[num]) return memo[num];
-  if (num <= 1) return 1;
-
-  return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
-}
-```
-
-Code Block Markdown Examples:
-
-![Code Block Examples](documentation/codeblock-example.png)
-
-### Tables
-
-Tables can be a great way to display information in your README, but can be a bit fiddly to get your head around at first. Tables are created using the pipe symbol ( | ) which is placed on either side of the content, creating the sides of the table. The first row of the table will be the headings for the table. This is then followed by a row with 3 dashes in each cell, and then you just add the contents for the table in the following rows.
-
-| Table Heading 1 | Table Heading 2 |
-| --- | --- |
-| I'm a piece of information in a table | Me too! |
-| 1| 2 |
-| 2 | 3 |
-
-Markdown for creating a table:
-
-![Table Example](documentation/table-example.png)
-
-You can also justify the contents within a table! You simply need to add a colon to the second row of dashes - place the colon on the left of the dashes for left justification, to the right of the dashes for right justification and to center the text, place a colon on each side of the dashes.
-
-| Table Heading 1 for justification example | Table Heading 2 For justification example |
-| :--- | :--- |
-| Justify contents| To the Left |
-
-| Table Heading 1 for justification example | Table Heading 2 For justification example |
-| ---: | ---: |
-| Justify contents | To the Right |
-
-| Table Heading 1 for justification example | Table Heading 2 For justification example |
-| :---: | :---: |
-| Justify contents | In the Center |
-
-![Table Justification Example Code](documentation/table-justification-example.png)
- - - -
-
-## Nice Extras & Other Interesting Tools
-
-Nice extras we could include in the README:
-
-[shields.io Badges](https://shields.io/) -  lots of badges relating to site builds. I like to add these after the site image at the top of my README. I like to include the following badges in my projects, but have an explore and see if there are any others you could use (they are also great to include in your GitHub Profile!)
-
-* GitHub last commit (Shows when the last commit to the repo was)
-* GitHub contributors (Great to show at a glance you are the only contributor to your project)
-* GitHub language count (Shows how many languages used in project)
-* GitHub top language (to display top language used in the project)
-* W3C validation (shows at a glance whether your HTML passes validation)
-
-![Shields.io Exmaple Badges](documentation/shields-example.png)
-
-[Gyazo GIF](https://gyazo.com) - A tool that allows you to capture a short video recording of your screen as a GIF. I like to use this to document a bug I might have (For example in my second project, each time a button was pressed the score would increase when it shouldn't have - this was a great way to capture what was happening). Have a look, or perhaps you have your own preferred screen recording tool you prefer.
-
-[Chrome Extension Spell Checker](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik) - I love to use this both on my site and to check over my README before submission, as its easy to get spelling errors creeping into your project as you burn the midnight oil towards the end as your deadline is looming.
-
-[Chrome Exension WAVE](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) - WAVE is a web accessibility evaluation tool developed by [WebAIM.org](https://wave.webaim.org/). It provides visual feedback about the accessibility of your web content by injecting icons and indicators into your page. No automated tool can tell you if your page is accessible, but WAVE facilitates human evaluation and educates about accessibility issues. All analysis is done entirely within the Chrome browser allowing secure valuation of intranet, local, password protected, and other sensitive web pages. I believe there is also an extension for Firefox.
-
-[Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - A fantastic chrome extension that allows you to simulate how certain disabilities can affect the users experience of your site. Really useful if you're using colour to represent a result - for example in a quiz.
-
-- - -
-
-## Further Reading
-
-* [Markdown Syntax](https://www.markdownguide.org/basic-syntax/) - This site is really comprehensive on all the different things you can do in Markdown.
-* [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables) - This may be useful to have a play around with to better understand how tables work in Markdown.
-* [Markdown Cheatsheet](https://github.com/atapas/markdown-cheatsheet) - A great markdown cheatsheet created by Atapas.
-* [Code Institute Sample README](https://github.com/Code-Institute-Solutions/SampleREADME) - Sample README created by the Code Institute
+Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
+  
+Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
 
 ## Credits
 
-### Media
+👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
 
-• All screenshots of code used in this README were taken by myself from my own milestone project repositories or Code Institute hackathon projects I have participated in.
+The Credits section is where you can credit all the people and sources you used throughout your project.
 
-• [README hero image](https://www.slidescarnival.com/aliena-free-presentation-template/4597) - Slide template from Slide Carnival
+### Code Used
 
-### Acknowledgments
+If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
 
-* [Ed](https://github.com/Edb83) - For letting me know about the heading links feature.
-* [Dave](https://github.com/daveyjh) - For letting me know about table justification in markdown.
-* Nerd Alert - For cheering me on while creating this webinar, and for proof-reading my documents.
-* A big thank you to Jim at Code Institute for the opportunity to be a channel lead for the Milestone 1 slack channel.
+### Content
+
+Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+
+###  Media
+
+If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+  
+###  Acknowledgments
+
+If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
