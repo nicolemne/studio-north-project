@@ -24,3 +24,11 @@ body {
     width: 100%;
     z-index: -5;
 }
+
+#hero-text {
+    font-family: Raleway, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: 50%;
+}
