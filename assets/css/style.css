@@ -18,7 +18,8 @@ body {
 }
 
 #navigation {
-    margin: 30px 30px 0 0px;
+    margin: 30px 30px 0 0;
+    padding-bottom: 30px;
     color: inherit;
     float: right;
     list-style-type: none;
@@ -46,7 +47,7 @@ body {
 }
 
 #hero-outer {
-    height: 400px;
+    height: 300px;
     width: 100%;
     overflow: hidden;
 
@@ -57,36 +58,33 @@ body {
     background-image: url('../images/hero-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 30px;
 
-    height: 300px;
+    height: 100%;
     width: 100%;
 
-    /* animation-name: hero-zoom;
+    animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: backwards; */
+    animation-fill-mode: backwards;
 }
 
-/* @keyframes hero-zoom {
+@keyframes hero-zoom {
     from {
         transform: scale(1.5);
     }
     to {
         transform: scale(1);
     }
-} */
+}
 
 #hero-text {
     font-family: Raleway, sans-serif;
-    font-size: 75px;
+    font-size: 65px;
     color: white;
     text-transform: uppercase;
     text-align: center;
     position: relative;
-    width: inherit;
-    display: block;
-    top: 40%;
-    left: auto;
+    transform: translate(1%, -175%);
+    z-index: 5;
 }
 
 footer, #copyright {

@@ -167,7 +167,10 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 
 👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
 
-The Credits section is where you can credit all the people and sources you used throughout your project.
+The Love Running project has been a design inspiration for my own project.
+I've used help from W3C Schools, links below:
+
+[How to position text above an image](https://www.w3schools.com/HOWTO/howto_css_image_text.asp)
 
 ### Code Used
 
