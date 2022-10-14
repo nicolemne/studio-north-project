@@ -3,3 +3,13 @@
     padding: 0;
     border: none;
 }
+
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: Pathway Gothic One, sans-serif;
+    font-weight: 300;
+    color: black;
+}
