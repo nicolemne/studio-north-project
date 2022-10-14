@@ -34,7 +34,17 @@ body {
     text-transform: uppercase;
     text-align: center;
     position: relative;
-    top: 40%;
+    width: inherit;
+    padding-left: 40%;
+    display: inline;
+    top: 25%;
+    left: 13%;
+}
+
+#navigation-box {
+    width: auto;
+    height: 10%;
+    display: block;
 }
 
 #navigation {
@@ -43,14 +53,16 @@ body {
     color: inherit;
     float: right;
     list-style-type: none;
-    font-size: 180%;
     letter-spacing: 3px;
     padding-top: 20px;
+    position: relative;
 }
 
 #navigation a {
     padding-right: 60px;
     color: white;
+    font: Raleway, sans-serif;
+    font-size: 150%;
 }
 
 footer, #copyright {
