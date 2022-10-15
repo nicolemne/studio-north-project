@@ -234,6 +234,20 @@ input[type=phone] {
 
   }
 
+ button {
+    background-color: #5E4F46;
+    border: 2px solid #4F423A;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
 
 #iframe {
     width: 25%;
