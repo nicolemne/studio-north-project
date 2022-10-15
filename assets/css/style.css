@@ -40,6 +40,7 @@ body {
 
 #navigation a:hover {
     border-bottom: 1px solid white;
+    color: #5E4F46;
 }
 
 .active {
@@ -78,7 +79,7 @@ body {
 
 #hero-text {
     font-family: Raleway, sans-serif;
-    font-size: 65px;
+    font-size: 60px;
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -114,4 +115,8 @@ footer a {
     color: white;
     margin: 0px;
     padding: 40px;
+}
+
+footer a:hover {
+    color: #5E4F46;
 }
