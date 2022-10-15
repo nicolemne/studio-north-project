@@ -45,7 +45,7 @@ body {
     color: #5E4F46;
 }
 
-.active {
+.active a {
     border-bottom: 1px solid white;
 }
 
@@ -91,11 +91,34 @@ body {
 }
 
 #about-us {
-    float: right;
-    width: 400px;
     position: relative;
-    right: 25%;
-    top: 40%;
+    padding: 30px;
+    width: auto;
+    margin: auto;
+    max-width: 400px;
+
+}
+
+h2 {
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 2px solid #5E4F46;
+}
+
+#paragraph-1 {
+    margin: 20px 0 0 20px;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#left-image {
+    background: url('../images/house.jpg') center no-repeat;
+    float: left;
+    position: relative;
 }
 
 footer, #copyright {

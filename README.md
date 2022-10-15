@@ -160,17 +160,17 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 ## Credits
 
 The Love Running project has been a design inspiration for my own project.
-I've used help from W3C Schools, links below:
-
-[How to position text above an image](https://www.w3schools.com/HOWTO/howto_css_image_text.asp)
+For help with syntax and formatting, please see links and description below.
 
 ### Code Used
 
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
+[How to stick footer to bottom of page](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
+
+[How to position text above an image](https://www.w3schools.com/HOWTO/howto_css_image_text.asp)
 
 ### Content
 
-I have written all content on the website. All of it being made up for the educational purpose, as this is not a real studio for hire.
+I have written all content on the website. All of it being made up for the educational purpose, as this is not a real studio for hire. My boyfriend Daniel has helped me with a descriptive text in the paragraph "About us". 
 
 ###  Media
 
