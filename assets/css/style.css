@@ -7,8 +7,10 @@
 }
 
 body, html {
-    height: 100%;
     background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 body {
@@ -88,6 +90,14 @@ body {
     z-index: 5;
 }
 
+#about-us {
+    float: right;
+    width: 400px;
+    position: relative;
+    right: 25%;
+    top: 40%;
+}
+
 footer, #copyright {
     padding-top: 30px;
     font-family: Raleway, sans-serif;
@@ -106,10 +116,10 @@ footer {
     background-color: #07191B;
     padding: 30px 0 0 30px;
     color: white;
+    margin-top: auto;
 }
 
 footer a {
-    position: relative;
     font-size: 35px;
     position: center center;
     color: white;
@@ -119,8 +129,4 @@ footer a {
 
 footer a:hover {
     color: #5E4F46;
-}
-
-#about-us {
-    
 }
