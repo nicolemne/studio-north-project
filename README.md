@@ -168,6 +168,8 @@ For help with syntax and formatting, please see links and description below.
 
 [How to position text above an image](https://www.w3schools.com/HOWTO/howto_css_image_text.asp)
 
+[How to style inputs](https://www.w3schools.com/css/css_form.asp)
+
 ### Content
 
 I have written all content on the website. All of it being made up for the educational purpose, as this is not a real studio for hire. My boyfriend Daniel has helped me with a descriptive text in the paragraph "About us". 
