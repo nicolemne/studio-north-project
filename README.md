@@ -1,6 +1,6 @@
-# Studio Northern Lights
+# Studio North
 
-Studio Northern Lights is an (imaginary) recording studio located in Northern Sweden. This studio is designed to be the perfect oasis for recording music without distractions. The website features a Home page with an 'About us' section, a Gallery page to view photos of the studio itself as well as the locale and surrounding nature. At the Contacts page there is contact information as well as a section to request a booking.
+Studio North is an (imaginary) recording studio located in Northern Sweden. This studio is designed to be the perfect oasis for recording music without distractions. The website features a Home page with an 'About us' section, a Gallery page to view photos of the studio itself as well as the locale and surrounding nature. At the Contacts page there is contact information as well as a section to request a booking.
 
 The reason I decided to go with this idea is because of my passion for music, as well as fond memories of my time as an intern in a music studio located in my hometown of Gothenburg, Sweden.
 
