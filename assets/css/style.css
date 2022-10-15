@@ -93,9 +93,11 @@ body {
 #about-us {
     position: relative;
     padding: 30px;
-    width: auto;
+    width: 50%;
     margin: auto;
     max-width: 400px;
+    float: left;
+    left: 14%;
 
 }
 
@@ -108,17 +110,69 @@ h2 {
 }
 
 #paragraph-1 {
-    margin: 20px 0 0 20px;
     font-family: Raleway, sans-serif;
     font-size: 20px;
     text-align: center;
     font-weight: 300;
+    margin-top: 20px;
 }
 
 #left-image {
-    background: url('../images/house.jpg') center no-repeat;
+    width: 25%;
+    margin: 0 auto;
     float: left;
     position: relative;
+    left: 10%;
+    padding: 30px;
+    top: 35px;
+}
+
+#circle-container-left {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #5E4F46;
+    border-width: 2px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#house {
+    background: url('../images/house.jpg') center no-repeat;
+    height: 100%;
+    width: auto;
+    position: relative;
+    border-radius: 50%;
+}
+
+#right-image {
+    width: 25%;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    right: 10%;
+    padding: 30px;
+    top: 35px;
+}
+
+#circle-container-right {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #5E4F46;
+    border-width: 2px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#equipment {
+    background: url('../images/microphone-1.jpg') center no-repeat;
+    height: 100%;
+    width: auto;
+    position: relative;
+    border-radius: 50%;
 }
 
 footer, #copyright {
