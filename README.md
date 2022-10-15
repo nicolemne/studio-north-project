@@ -59,29 +59,25 @@ Add your user stories here. You want to include first time visitors and returnin
 
 ## Design
 
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
-
 ### Colour Scheme
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
+I've generated a color palette based off of the hero image, which I thought would be a well suited color scheme for the full website. 
 
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
+[Coolors.co](https://coolors.co/) Is the website I've used to generate the colour palette.
+
+![Colour Palette](assets/readme/color-palette.png)
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
+I wanted to go with a sleek typography, and decided to go with Bebas Neue, Pathway Gothic One and Raleway, all of which I thought fitted well together. 
 
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
+We can see Raleway being used on the hero image "Studio Northern Lights". Pathway Gothic One is used as paragraph text, and Bebas Neue as lesser headers.
 
-I also like to include an image of the fonts chosen as a reference.
-
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+![Typography](assets/readme/google-fonts.png)
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+As the studio is located in a rural forest-y area in northern Sweden, I've chosen to use images that gives a warm and earthy feel. 
 
 ### Wireframes
 
@@ -121,11 +117,9 @@ Code Institute have an amazing channel for all things accessibility (a11y-access
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
-
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+HTML & CSS.
 
 ### Frameworks, Libraries & Programs Used
 
@@ -141,7 +135,7 @@ A great tip for this section is to include them as you use them, that way you wo
 
 ### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+---
 
 ### Local Development
 
@@ -165,8 +159,6 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 
 ## Credits
 
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-
 The Love Running project has been a design inspiration for my own project.
 I've used help from W3C Schools, links below:
 
@@ -178,11 +170,11 @@ If you have used some code in your project that you didn't write, this is the pl
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+I have written all content on the website. All of it being made up for the educational purpose, as this is not a real studio for hire.
 
 ###  Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+All images are royalty free and has been taken from [Pexels](https://www.pexels.com/sv-se/) and [Unsplash](https://unsplash.com/).
   
 ###  Acknowledgments
 
