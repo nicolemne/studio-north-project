@@ -92,15 +92,9 @@ body {
     z-index: 5;
 }
 
-#about-us {
+#home-section {
     position: relative;
-    padding: 30px;
-    width: 50%;
-    margin: auto;
-    max-width: 400px;
-    float: left;
-    left: 14%;
-
+    width: auto;
 }
 
 h2 {
@@ -120,13 +114,13 @@ h2 {
 }
 
 #left-image {
-    width: 25%;
+    width: 500px;
     margin: 0 auto;
     float: left;
     position: relative;
-    left: 10%;
     padding: 30px;
-    top: 35px;
+    right: -13%;
+    top: 30px;
 }
 
 #circle-container-left {
@@ -149,13 +143,12 @@ h2 {
 }
 
 #right-image {
-    width: 25%;
     margin: 0 auto;
     float: right;
     position: relative;
-    right: 10%;
     padding: 30px;
-    top: 35px;
+    left: -13%;
+    top: 30px;
 }
 
 #circle-container-right {
@@ -175,6 +168,16 @@ h2 {
     width: auto;
     position: relative;
     border-radius: 50%;
+}
+
+#about-us {
+    max-width: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 30px;
 }
 
 #contact-form {
