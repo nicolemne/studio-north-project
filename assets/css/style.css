@@ -103,7 +103,10 @@ h2 {
     text-align: center;
     font-size: 40px;
     border-bottom: 2px solid #5E4F46;
+    max-width: 400px;
 }
+
+
 
 #paragraph-1 {
     font-family: Raleway, sans-serif;
@@ -180,18 +183,21 @@ h2 {
     padding: 30px;
 }
 
+#contact-section {
+    width: auto;
+}
+
 .mapouter {
-    position: relative;
     margin: 0 auto;
     text-align: right;
-    height: 500px;
-    width: 500px;
     float: left;
-    padding: 25px;
-    top: 50px;
-    left: -5%;
-
+    left: 12%;
+    position: relative;
     border: 2px solid #5E4F46;
+    display: inline-block;
+    width: 500px;
+    padding: 30px;
+    top: 50px;
 }
 
 .gmap_canvas {
@@ -201,14 +207,39 @@ h2 {
     width: 500px;
 }
 
-#contact-form {
+#contact-information {
+    float: right;
     position: relative;
+    left: -12%;
+    display: inline-block;
+    width: 500px;
     padding: 30px;
-    width: 50%;
-    margin: auto;
+
+}
+
+#contact-information-header {
+    font-family: Pathway Gothic One, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+
+#contact-information #contact-information-paragraph {
+    font-family: Raleway, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+#contact-form {
+    display: inline-block;
     max-width: 400px;
-    float: left;
-    left: 41%
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 30px;
 }
 
 form {
@@ -216,7 +247,6 @@ form {
     font-size: 20px;
     padding: 15px;
     font-family: Raleway, sans-serif;
-
 }
 
 input[type=text] {
@@ -271,16 +301,6 @@ input[type=phone] {
     letter-spacing: 3px;
     text-align: center;
   }
-
-#contact-information {
-    width: 25%;
-    margin: 0 auto;
-    float: right;
-    position: relative;
-    right: 10%;
-    padding: 30px;
-    top: 35px;
-}
 
 footer,
 #copyright {
