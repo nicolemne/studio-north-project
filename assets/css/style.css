@@ -54,8 +54,8 @@ body {
     height: 300px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
+    margin: 0 auto;
 }
 
 #hero-image {
@@ -173,11 +173,32 @@ h2 {
 #about-us {
     max-width: 400px;
     position: absolute;
-    top: 0;
+    top: 5%;
     left: 0;
     right: 0;
     margin: auto;
     padding: 30px;
+}
+
+.mapouter {
+    position: relative;
+    margin: 0 auto;
+    text-align: right;
+    height: 500px;
+    width: 500px;
+    float: left;
+    padding: 25px;
+    top: 50px;
+    left: -10%;
+
+    border: 2px solid #5E4F46;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 500px;
 }
 
 #contact-form {
@@ -250,17 +271,6 @@ input[type=phone] {
     letter-spacing: 3px;
     text-align: center;
   }
-
-
-#iframe {
-    width: 25%;
-    margin: 0 auto;
-    float: left;
-    position: relative;
-    left: 10%;
-    padding: 30px;
-    top: 35px;
-}
 
 #contact-information {
     width: 25%;
