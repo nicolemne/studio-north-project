@@ -83,6 +83,8 @@ As the studio is located in a rural forest-y area in northern Sweden, I've chose
 
 The Wireframes I've made was created for desktop and mobile view. The original design I made has changed slightly, and the images below represent the new changes - which I have also tried my best to implement on the live site. 
 
+I ended up not going for the calendar button in the end and settled for just the submit button.
+
 ![Wireframe Home Page](assets/readme/wireframes-home.png)
 ![Wireframe Gallery Page](assets/readme/wireframes-gallery.png)
 ![Wireframe Contact Page](assets/readme/wireframes-contact.png)
@@ -126,6 +128,8 @@ HTML & CSS.
 I've used Gitpod for the actual programming, as well as creating a repository for my project in Github. 
 
 Wireframes were created with Balsamic. 
+
+For the iframe I've used https://google-map-generator.com/.
 
 The images I've converted from avif files to jpg with Microsoft Paint. The header image I've also used Canva for adding a colour tint. Original header picture below. 
 
