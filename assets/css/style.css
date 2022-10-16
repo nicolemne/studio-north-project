@@ -46,8 +46,9 @@ body {
     color: #5E4F46;
 }
 
-.active a {
+.active {
     border-bottom: 1px solid white;
+    color:#5E4F46;
 }
 
 #hero-outer {
