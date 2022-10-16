@@ -81,11 +81,11 @@ As the studio is located in a rural forest-y area in northern Sweden, I've chose
 
 ### Wireframes
 
-Add the images or links for your wireframes here.
+The Wireframes I've made was created for desktop and mobile view. The original design I made has changed slightly, and the images below represent the new changes - which I have also tried my best to implement on the live site. 
 
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
-
-Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
+![Wireframe Home Page](assets/readme/wireframes-home.png)
+![Wireframe Gallery Page](assets/readme/wireframes-gallery.png)
+![Wireframe Contact Page](assets/readme/wireframes-contact.png)
 
 ## Features
 
@@ -123,11 +123,16 @@ HTML & CSS.
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+I've used Gitpod for the actual programming, as well as creating a repository for my project in Github. 
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+Wireframes were created with Balsamic. 
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+The images I've converted from avif files to jpg with Microsoft Paint. The header image I've also used Canva for adding a colour tint. Original header picture below. 
+
+![Original header image](https://images.unsplash.com/photo-1612344441107-ef12287e4872?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80)
+
+Header image with tint and slightly cropped: 
+![Header image with tint](assets/images/hero-bg.jpg)
 
 ## Deployment & Local Development
 
@@ -151,11 +156,7 @@ Place instructions on how to clone your project here.
 
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
-
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+### Solved Bugs
 
 ## Credits
 
