@@ -107,12 +107,12 @@ What features would you like to implement in the future on your site? Would you 
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
+I have tried my best to be mindful of accessibility, and the steps I've taken for this are the following:
 
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
+- Descriptive information about every image in the gallery page. 
+- Aria labels to the social media links.
+- Thought of a good contrast throughout the website.
 
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
 Have you chosen fonts that are dyslexia/accessible friendly?
 
 Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
