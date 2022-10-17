@@ -109,9 +109,10 @@ What features would you like to implement in the future on your site? Would you 
 
 I have tried my best to be mindful of accessibility, and the steps I've taken for this are the following:
 
-- Descriptive information about every image in the gallery page. 
-- Aria labels to the social media links.
-- Thought of a good contrast throughout the website.
+- Descriptive information about every image in the gallery page
+- Aria labels to the social media links
+- Thought of a good contrast throughout the website
+- Semantic HTML
 
 Have you chosen fonts that are dyslexia/accessible friendly?
 
@@ -139,8 +140,6 @@ Header image with tint and slightly cropped:
 ![Header image with tint](assets/images/hero-bg.jpg)
 
 ## Deployment & Local Development
-
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
 
 ### Deployment
 
