@@ -131,7 +131,7 @@ Wireframes were created with Balsamic.
 
 For the iframe I've used https://google-map-generator.com/.
 
-The images I've converted from avif files to jpg with Microsoft Paint. The header image I've also used Canva for adding a colour tint. Original header picture below. 
+The images I've converted from avif files to jpg with Microsoft Paint (as I thought that would make the images take up less data but I might have gotten it wrong). The header image I've also used Canva for adding a colour tint. Original header picture below. 
 
 ![Original header image](https://images.unsplash.com/photo-1612344441107-ef12287e4872?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80)
 
@@ -144,7 +144,7 @@ Header image with tint and slightly cropped:
 
 ### Deployment
 
----
+[Live site here](https://nicolemne.github.io/project-portfolio-1/)
 
 ### Local Development
 
@@ -162,10 +162,19 @@ Place instructions on how to clone your project here.
 
 ### Solved Bugs
 
+I've encountered several "bugs" on the journey of making this website, and most of them I've corrected by seeking help online. 
+
+Some bugs I've encountered and fixed: 
+
+- Header text not showing up on top of the hero image. 
+- Footer not sticking to bottom of the page 
+- Image of the house on index.html not showing up
+- Header text not being centered
+
 ## Credits
 
 The Love Running project has been a design inspiration for my own project.
-For help with syntax and formatting, please see links and description below.
+The help I've used with syntax and formatting, please see links and description below.
 
 ### Code Used
 
