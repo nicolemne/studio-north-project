@@ -10,8 +10,6 @@ body,
 html {
     background-color: black;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 body {
@@ -20,7 +18,7 @@ body {
     color: white;
 }
 
-#navigation {
+.navigation {
     margin: 30px 20px 0 0;
     padding-bottom: 30px;
     color: inherit;
@@ -30,13 +28,13 @@ body {
     line-height: 55px;
 }
 
-#navigation li {
+.navigation li {
     float: right;
     list-style-type: none;
     margin-right: 10px;
 }
 
-#navigation a {
+.navigation a {
     margin: 0 20px 0 0;
     padding: 0 5px 0 5px;
     color: white;
@@ -46,7 +44,7 @@ body {
     text-align: center;
 }
 
-#navigation a:hover {
+.navigation a:hover {
     border-bottom: 1px solid white;
     color: #5E4F46;
 }
@@ -64,7 +62,7 @@ body {
     margin: 0 auto;
 }
 
-#hero-image {
+.hero-image {
     background-image: url('../images/hero-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -87,7 +85,7 @@ body {
     }
 }
 
-#hero-text {
+.hero-text {
     font-family: Raleway, sans-serif;
     font-size: 60px;
     color: white;
@@ -109,18 +107,7 @@ body {
     margin-top: 30px;
 }
 
-h2 {
-    font-family: Bebas Neue, sans-serif;
-    font-weight: 100;
-    text-align: center;
-    font-size: 40px;
-    border-bottom: 2px solid #5E4F46;
-    max-width: 400px;
-}
-
-
-
-#paragraph-1 {
+.paragraph-1 {
     font-family: Raleway, sans-serif;
     font-size: 20px;
     text-align: center;
@@ -130,7 +117,7 @@ h2 {
 
 
 
-#circle-container-left {
+.circle-container-left {
     width: 500px;
     height: 500px;
     padding: 10px;
@@ -141,14 +128,14 @@ h2 {
     margin: 0 auto;
 }
 
-#house {
+.house {
     background: url('../images/house.jpg') center no-repeat;
     height: 100%;
     width: auto;
     border-radius: 50%;
 }
 
-#circle-container-right {
+.circle-container-right {
     width: 500px;
     height: 500px;
     padding: 10px;
@@ -159,26 +146,35 @@ h2 {
     margin: 0 auto;
 }
 
-#equipment {
+.equipment {
     background: url('../images/microphone-1.jpg') center no-repeat;
     height: 100%;
     width: auto;
     border-radius: 50%;
 }
 
-#about-us {
+.about-us {
     max-width: 400px;
     margin-top: 20px;
 }
 
-#photos {
+.about-us > h2 {
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 2px solid #5E4F46;
+    width: 400px;
+}
+
+.photos {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
 }
 
-#photos>img {
+.photos>img {
     width: 100%;
 }
 
@@ -186,7 +182,7 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .mapouter {
@@ -204,28 +200,43 @@ h2 {
 
 #contact-form {
     margin-top: 40px;
+    width: 500px;
+}
+
+#contact-form > h2 {
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 2px solid #5E4F46;
+    width: 500px;
 }
 
 
 #contact-information {
-    max-width: 500px;
+    width: 500px;
 
 }
 
-#contact-information-header {
-    font-family: Pathway Gothic One, sans-serif;
+#contact-information > h2 {
+    font-family: Bebas Neue, sans-serif;
     font-weight: 100;
-    font-size: 30px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 2px solid #5E4F46;
+    width: 500px;
 }
 
-#contact-information #contact-information-paragraph {
+#contact-information > p {
     font-family: Raleway, sans-serif;
     font-size: 25px;
     font-weight: 300;
     margin-top: 10px;
+}
+
+#contact-information > h3 {
+    font-size: 30px;
+    padding-top: 10px;
 }
 
 form {
@@ -294,7 +305,7 @@ button:hover {
 }
 
 footer,
-#copyright {
+.copyright {
     padding-top: 30px;
     font-family: Raleway, sans-serif;
     font-size: 15px;
@@ -314,6 +325,8 @@ footer {
     padding: 30px 0 0 0;
     color: white;
     margin-top: auto;
+    position: relative;
+    top: 50px;
 }
 
 footer a {
@@ -327,7 +340,7 @@ footer a:hover {
     color: #5E4F46;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 600px) {
 
     #hero-outer {
         height: 200px;
@@ -344,45 +357,45 @@ footer a:hover {
         justify-content: space-evenly;
     }
 
-    #hero-text {
+    .hero-text {
         font-size: 30px;
         bottom: 30px; 
     }
 
-    #hero-image {
+    .hero-image {
         height: 200px;
         width: 100%;
     }
 
     #home-section {
         display: flex;
-        align-items: column;
+        flex-direction: column;
         justify-content: space-evenly;
 
     }
 
-    #about-us {
+    .about-us {
         padding: 10px;
     }
 
-    #right-image {
+    .right-image {
         width: 100%;
         padding: 0;
         margin: 0 auto;
     }
 
-    #circle-container-right {
+    .circle-container-right {
         width: 300px;
         height: 300px;
     }
 
-    #left-image {
+    .left-image {
         width: 100%;
         padding: 0;
         margin: 0 auto;
     }
 
-    #circle-container-left {
+    .circle-container-left {
         width: 300px;
         height: 300px;
     }
