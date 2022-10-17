@@ -92,12 +92,13 @@ body {
     font-size: 60px;
     color: white;
     text-transform: uppercase;
-    position: absolute;
     transform: translate(1%, -175%);
-    z-index: 5;
-    text-align: center;
+    z-index: 11;
     padding: 10px;
-    left: 37.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 #home-section {
@@ -363,12 +364,78 @@ footer a:hover {
     color: #5E4F46;
 }
 
-@media screen and (max-width: 1200px) {
-    #menu {
+@media screen and (max-width: 360px) {
+
+    #hero-outer {
+        height: 200px;
+        width: 100%;
+    }
+
+    #navigation {
         clear: left;
         float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
         line-height: 25px;
+        letter-spacing: 2px;
+        padding: 10px;
+        margin: 10px 0px 10px 30px;
+        left: 20px;
     }
+
+    #hero-text {
+        font-size: 30px;
+        bottom: 30px; 
+    }
+
+    #hero-image {
+        height: 200px;
+    }
+
+    #about-us {
+        clear: left;
+        float: left;
+        margin: 0 auto;
+        padding: 10px;
+        display: flex;
+        order: 1;
+        flex-direction: column;
+        position: absolute;
+    }
+
+    #home-section {
+        width: 100%;
+        display: block;
+        height: 100vh;
+
+    }
+
+    #right-image {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        order: 2;
+        flex-direction: column;
+        position: absolute;
+        margin: 0 auto;
+    }
+
+    #circle-container-right {
+        width: 300px;
+        height: 300px;
+    }
+
+    #left-image {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        order: 3;
+        flex-direction: column;
+        position: absolute;
+        margin: 0 auto;
+    }
+
+    #circle-container-left {
+        width: 300px;
+        height: 300px;
+    }
+
 }
