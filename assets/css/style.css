@@ -651,8 +651,8 @@ footer a:hover {
     }
 }
 
-/* max-width 370px */
-@media screen and (max-width: 370px) {
+/* max-width 359px */
+@media screen and (max-width: 359px) {
     .about-us {
         max-width: 250px;
         margin-top: 20px;
