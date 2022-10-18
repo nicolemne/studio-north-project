@@ -18,24 +18,38 @@ body {
     color: white;
 }
 
+/* Navigation bar*/
+
+.nav-home {
+    order: 1;
+
+}
+
+.nav-gallery {
+    order: 2;
+}
+
+.nav-contact {
+    order: 3;
+}
+
 .navigation {
-    margin: 30px 20px 0 0;
-    padding-bottom: 30px;
+    padding: 25px 30px 25px 30px;
     color: inherit;
-    float: right;
     list-style-type: none;
     letter-spacing: 3px;
     line-height: 55px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 30px;
 }
 
 .navigation li {
-    float: right;
     list-style-type: none;
-    margin-right: 10px;
 }
 
 .navigation a {
-    margin: 0 20px 0 0;
     padding: 0 5px 0 5px;
     color: white;
     font: Raleway, sans-serif;
@@ -53,6 +67,8 @@ body {
     border-bottom: 1px solid white;
     color: #5E4F46;
 }
+
+/* Hero image and text */
 
 #hero-outer {
     height: 300px;
@@ -99,6 +115,8 @@ body {
 
 }
 
+/* Home page - center divs and images */
+
 #home-section {
     display: flex;
     justify-content: space-evenly;
@@ -115,7 +133,7 @@ body {
     margin-top: 20px;
 }
 
-
+/* Images home page */
 
 .circle-container-left {
     width: 500px;
@@ -153,6 +171,8 @@ body {
     border-radius: 50%;
 }
 
+/* About us text - home page */
+
 .about-us {
     max-width: 400px;
     margin-top: 20px;
@@ -167,6 +187,8 @@ body {
     width: 400px;
 }
 
+/* Gallery page */
+
 .photos {
     clear: both;
     line-height: 0;
@@ -178,6 +200,8 @@ body {
     width: 100%;
 }
 
+/* Contact page */
+
 #contact-section {
     display: flex;
     flex-direction: row;
@@ -185,7 +209,9 @@ body {
     justify-content: space-around;
 }
 
-.mapouter {
+/* Google maps iframe */
+
+#mapouter {
     text-align: right;
     border: 2px solid #5E4F46;
 
@@ -197,6 +223,8 @@ body {
     height: 500px;
     width: 500px;
 }
+
+/* Form */
 
 #contact-form {
     margin-top: 40px;
@@ -211,7 +239,6 @@ body {
     border-bottom: 2px solid #5E4F46;
     width: 500px;
 }
-
 
 #contact-information {
     width: 500px;
@@ -304,6 +331,8 @@ button:hover {
     background: white;
 }
 
+/* Footer */
+
 footer,
 .copyright {
     padding-top: 30px;
@@ -340,7 +369,34 @@ footer a:hover {
     color: #5E4F46;
 }
 
-@media screen and (max-width: 600px) {
+/* Media queries */
+
+/* max-width 1600px */
+@media screen and (max-width: 1600px) {
+
+    #contact-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #contact-form {
+        order: 1;
+    }
+
+    #contact-information {
+        order: 2;
+        margin-top: 20px;
+    }
+
+    #mapouter {
+        order: 3;
+        margin-top: 30px;
+    }
+}
+    /*max-width 1500px*/
+
+@media screen and (max-width: 1500px) {
 
     #hero-outer {
         height: 200px;
@@ -350,11 +406,24 @@ footer a:hover {
     #navigation-box {
         line-height: 25px;
         letter-spacing: 2px;
-        padding: 10px;
-        width: 100%;
+        padding: 10px 0 0 0;
         display: flex;
         align-items: row;
         justify-content: space-evenly;
+    }
+
+    .navigtion {
+        letter-spacing: 0px;
+        line-height: 0px;
+        margin: 0;
+    }
+
+    .navigation > li {
+        margin: 0;
+    }
+
+    .navigation > ul {
+        margin: 0;
     }
 
     .hero-text {
@@ -369,13 +438,14 @@ footer a:hover {
 
     #home-section {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-evenly;
 
     }
 
     .about-us {
         padding: 10px;
+        margin-bottom: 20px;
     }
 
     .right-image {
@@ -400,4 +470,181 @@ footer a:hover {
         height: 300px;
     }
 
+    .photos {
+        clear: both;
+        line-height: 0;
+        column-count: 3;
+        column-gap: 0;
+    }
+
+    #contact-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #contact-form {
+        order: 1;
+    }
+
+    #contact-information {
+        order: 2;
+        margin-top: 20px;
+    }
+
+    #mapouter {
+        order: 3;
+        margin-top: 30px;
+    }
+
+}
+
+/* max-width 1200px */
+@media screen and (max-width: 1200px) {
+
+    #home-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .photos {
+        clear: both;
+        line-height: 0;
+        column-count: 2;
+        column-gap: 0;
+    }   
+}
+
+/* max-width 650px */
+@media screen and (max-width: 650px) {
+    .photos {
+        clear: both;
+        line-height: 0;
+        column-count: 1;
+        column-gap: 0;
+    }   
+}
+
+/* max-width 560px */
+@media screen and (max-width: 560px) {
+    footer a {
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    footer, .copyright {
+    padding-top: 10px;
+    font-family: Raleway, sans-serif;
+    font-size: 13px;
+    }
+
+    footer p {
+    padding-bottom: 15px;
+    font-family: Raleway, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    text-transform: uppercase;
+    }
+
+    #contact-information {
+        width: 400px;
+        margin: 5px 0 0 0;
+    
+    }
+
+    #contact-form {
+        margin-top: 20px;
+        width: 400px;
+    }
+
+    #contact-form > h2 {
+        font-size: 30px;
+        width: 400px;
+    }
+
+    #contact-information > h2 {
+        font-size: 30px;
+        width: 400px;
+    }
+
+    button {
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    #contact-information > p {
+        font-size: 20px;
+    }
+
+    #contact-information > h3 {
+        font-size: 25px;
+    }
+
+    #textarea {
+        width: 90%;
+        height: 100px;
+    }
+
+    .mapouter {
+        width: 400px;
+        height: 400px;
+    }
+
+    .gmap_canvas {
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+/* max-width 450px */
+@media screen and (max-width: 450px) {
+    .about-us {
+        max-width: 300px;
+        margin-top: 20px;
+    }
+    
+    .about-us > h2 {
+        font-size: 30px;
+        width: 300px;
+    }
+
+    #contact-information {
+        width: 300px;
+    
+    }
+
+    #contact-form {
+        width: 300px;
+    }
+
+    #contact-form > h2 {
+        width: 300px;
+    }
+
+    #contact-information > h2 {
+        font-size: 30px;
+        width: 300px;
+    }
+
+    #contact-information > h3 {
+        font-size: 25px;
+    }
+
+    #textarea {
+        width: 90%;
+        height: 100px;
+    }
+
+    .mapouter {
+        width: 300px;
+        height: 300px;
+    }
+
+    .gmap_canvas {
+        width: 300px;
+        height: 300px;
+    }
 }
