@@ -530,7 +530,8 @@ footer a:hover {
 @media screen and (max-width: 560px) {
     footer a {
         font-size: 25px;
-        padding: 20px;
+        padding: 30px;
+        margin-top: 20px;
     }
 
     footer, .copyright {
