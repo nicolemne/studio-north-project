@@ -143,7 +143,7 @@ Header image with tint and slightly cropped:
 
 ### Deployment
 
-[Live site here](https://nicolemne.github.io/project-portfolio-1/)
+[View the live site here](https://nicolemne.github.io/project-portfolio-1/)
 
 ### Local Development
 
@@ -192,17 +192,12 @@ The help I've used with syntax and formatting, please see links and description 
 
 ### Code Used
 
-[How to stick footer to bottom of page](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
-
-[How to position text above an image](https://www.w3schools.com/HOWTO/howto_css_image_text.asp)
-
-[How to style inputs](https://www.w3schools.com/css/css_form.asp)
-
-[Cursor in the middle of text area](https://stackoverflow.com/questions/9070924/cursor-in-the-middle-of-a-textarea-box)
-
-[How to center div inbetween two divs](https://stackoverflow.com/questions/3172738/centering-a-div-between-one-thats-floated-right-and-one-thats-floated-left)
-
-[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [How to stick footer to bottom of page](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
+- [How to position text above an image](https://www.w3schools.com/HOWTO/howto_css_image_text.asp)
+- [How to style inputs](https://www.w3schools.com/css/css_form.asp)
+- [Cursor in the middle of text area](https://stackoverflow.com/questions/9070924/cursor-in-the-middle-of-a-textarea-box)
+- [How to center div inbetween two divs](https://stackoverflow.com/questions/3172738/centering-a-div-between-one-thats-floated-right-and-one-thats-floated-left)
+- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ### Content
 
@@ -214,4 +209,9 @@ All images are royalty free and has been taken from [Pexels](https://www.pexels.
   
 ###  Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+I would like to thank and acknowledge the following people, who has showed invaluable support throughout my first project:
+
+- Dan Ford, boyfriend and biggest supporter.
+- Mitko Bachvarov, my mentor at Code Institute. 
+- Kera Cudmore, for the README webinar and this README template.
+- Malin, at Tjejer Kodar.
