@@ -161,14 +161,29 @@ Place instructions on how to clone your project here.
 
 ### Solved Bugs
 
-I've encountered several "bugs" on the journey of making this website, and most of them I've corrected by seeking help online. 
+I've encountered several "bugs" on the journey of making this website, and most of them I've corrected by seeking help online or from my mentor Mitko. 
 
 Some bugs I've encountered and fixed: 
 
-- Header text not showing up on top of the hero image. 
-- Footer not sticking to bottom of the page 
-- Image of the house on index.html not showing up
-- Header text not being centered
++ Header
+  + Description: Hero text placement
+  + Expected behaviour: Header text layered on top of the hero image
+  + Actual behaviour: Header text hiding under the hero image
+  + Fix: Add code transform: translate(1%, -175%);
+
++ Footer
+  + Description: Footer not sticking to bottom of page
+  + Expected behaviour: Footer sticking to the bottom page of the html
+  + Actual behaviour: Padding between bottom of page and footer
+  + Fix: Add position: relative; and top 50px
+
++ Div positioning
+  + Description: Wrong position on the three divs on index.html & contact.html
+  + Expected behaviour: Divs positioned in a row next to each other
+  + Actual behaviour: Divs position was on top of each other or to the side
+  + Fix: Flexbox
+
+
 
 ## Credits
 
@@ -186,6 +201,8 @@ The help I've used with syntax and formatting, please see links and description 
 [Cursor in the middle of text area](https://stackoverflow.com/questions/9070924/cursor-in-the-middle-of-a-textarea-box)
 
 [How to center div inbetween two divs](https://stackoverflow.com/questions/3172738/centering-a-div-between-one-thats-floated-right-and-one-thats-floated-left)
+
+[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ### Content
 
