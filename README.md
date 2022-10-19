@@ -109,13 +109,12 @@ Because my screen is a little bit bigger I've had to crop the images to get full
 
 ### Finished look of the Contact page
 ![Contact Pag](assets/readme/contact-page-1.jpg)
+## Footer
 ![Contact Page footer](assets/readme/contact-page-2.jpg)
 
 ### General features on each page
 
 The navigation bar and footer is reappearing on all three pages of my website.
-
-![amiresponsive](assets/readme/amiresponsive.jpg)
 
 ### Future Implementations
 
@@ -161,24 +160,35 @@ Header image with tint and slightly cropped:
 
 ### Local Development
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
+If you wish to clone my project, please see the following steps below:
 
-#### How to Fork
-
-Place instructions on how to fork your project here.
-
-#### How to Clone
-
-Place instructions on how to clone your project here.
+1. Navigate to Github: https://github.com/nicolemne/project-portfolio-1
+2. Select the 'Clone' button 
+3. Copy the url or download as ZIP file
+4. Use git clone + the url in your terminal, or unpack the ZIP containing the project
 
 ## Testing
 
-W3C validator
-CSS validator
+I have tested all the links, both in the footer and navigation menu to see that all the links are working. All links to websites open up in a new tab. I have also resized the screen size manually to verify that the media queries are working and that the website is responsive to different screen resolutions. 
+
+The mobile phones I have tested resolution with are: 
+- Samsung Galaxy 8
+- Iphone 12 Pro
+- Blackberry Z30
+- Nexus 5
+
+### Lighthouse
+![Lighthouse](assets/readme/lighthouse.jpg)
+
+### W3C HTML Validator
+![W3C HTML Validator](assets/readme/w3c-validator.jpg)
+
+### W3C CSS Validator
+![W3C CSS Validator](assets/readme/w3c-css.jpg)
 
 ### Known bugs
 
-There are two bugs in particular that I have noticed and not yet been able to correct. They are centering issues with the footer content and hero text. I plan on implementing flexbox to both the hero image and text, as well as the footer content, to make the text and fonts fixed in the center. 
+No known bugs detected
 
 ### Solved Bugs
 
@@ -221,7 +231,7 @@ The help I've used with syntax and formatting, please see links and description 
 
 ### Content
 
-I have written most content on the website. All of it being made up for the educational purpose, as this is not a real studio for hire. My boyfriend Daniel has helped me with a descriptive text in the paragraph "About us". Some code has been borrowed from other authors, please see Code Used.
+I have written most content on the website. Some code has been borrowed from other authors, please see Code Used.
 
 ###  Media
 
