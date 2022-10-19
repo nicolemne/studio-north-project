@@ -173,6 +173,9 @@ Place instructions on how to clone your project here.
 
 ## Testing
 
+W3C validator
+CSS validator
+
 ### Known bugs
 
 There are two bugs in particular that I have noticed and not yet been able to correct. They are centering issues with the footer content and hero text. I plan on implementing flexbox to both the hero image and text, as well as the footer content, to make the text and fonts fixed in the center. 
@@ -193,7 +196,7 @@ Some bugs I've encountered and fixed:
   + Description: Footer not sticking to bottom of page
   + Expected behaviour: Footer sticking to the bottom page of the html
   + Actual behaviour: Padding between bottom of page and footer
-  + Fix: Add position: relative; and top 50px
+  + Fix: Add position: relative; and top 50px as well as top: 120px for media query 1500px
 
 + Div positioning
   + Description: Wrong position on the three divs on index.html & contact.html

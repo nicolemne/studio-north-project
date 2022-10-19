@@ -52,7 +52,7 @@ body {
 .navigation a {
     padding: 0 5px 0 5px;
     color: white;
-    font: Raleway, sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 150%;
     text-decoration: none;
     text-align: center;
@@ -417,7 +417,6 @@ footer a:hover {
         letter-spacing: 2px;
         padding: 10px 0 0 0;
         display: flex;
-        align-items: row;
         justify-content: space-evenly;
     }
 
@@ -504,6 +503,10 @@ footer a:hover {
     #mapouter {
         order: 3;
         margin-top: 30px;
+    }
+
+    footer {
+        top: 120px;
     }
 }
 
@@ -669,6 +672,16 @@ footer a:hover {
     .hero-text {
         font-size: 25px;
     }
+
+    footer a {
+        font-size: 25px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
 }
 
 /* max-width 359px */
@@ -732,8 +745,8 @@ footer a:hover {
     }
 
     footer a {
-        font-size: 20px;
-        padding: 25px;
+        font-size: 25px;
+        padding: 10px;
         margin-top: 20px;
     }
 
@@ -746,5 +759,11 @@ footer a:hover {
 @media screen and (max-width: 330px) {
     footer p {
         font-size: 10px;
+    }
+
+    footer a {
+        font-size: 25px;
+        padding: 10px;
+        margin-top: 20px;
     }
 }
