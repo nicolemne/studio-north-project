@@ -55,7 +55,9 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
 
 ### User Stories
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+For first time viewers I wanted to make the website visually inticing as well as having a clear understanding what the website is about. Together with the hero image and text, side images and introduction text, the first page quickly suggests that this is a music recording studio. 
+
+If the front page has piqued the viewers interest, and they would like to learn more about the studio, they have a gallery to visit, as well as social media links, which are both easy accessible. 
 
 ## Design
 
@@ -63,7 +65,7 @@ Add your user stories here. You want to include first time visitors and returnin
 
 I've generated a color palette based off of the hero image, which I thought would be a well suited color scheme for the full website. 
 
-[Coolors.co](https://coolors.co/) Is the website I've used to generate the colour palette.
+[Coolors.co](https://coolors.co/) Is the website I've used to generate the colour palette. I've mainly used a black background, white text and #5E4F46 for underlines, and #091B1D as the footer background.
 
 ![Colour Palette](assets/readme/color-palette.png)
 
@@ -83,7 +85,7 @@ As the studio is located in a rural forest-y area in northern Sweden, I've chose
 
 The Wireframes I've made was created for desktop and mobile view. The original design I made has changed slightly, and the images below represent the new changes - which I have also tried my best to implement on the live site. 
 
-I ended up not going for the calendar button in the end and settled for just the submit button.
+I ended up not going for the hamburger navigation menu nor the calendar button in the end and settled for just the submit button and the regular navigation menu.
 
 ![Wireframe Home Page](assets/readme/wireframes-home.png)
 ![Wireframe Gallery Page](assets/readme/wireframes-gallery.png)
@@ -91,19 +93,32 @@ I ended up not going for the calendar button in the end and settled for just the
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
+My website contains 3 pages, index.html which is the home page, gallery.html is my gallery page, and contact.html is the contact page. 
 
-This section can be used to explain what pages your site is made up of.
+### This is what the finished look of the Home page. 
+![Home Page](assets/readme/home-page.jpg)
+
+### This is what the finished look of the Gallery page. 
+Because my screen is a little bit bigger I've had to crop the images to get full view. 
+![Gallery Top](assets/readme/gallery-page-1.jpg)
+![Gallery Middle](assets/readme/gallery-page-2.jpg)
+![Gallery Bottom](assets/readme/gallery-page-3.jpg)
+
+### This is what the finished look of the Contact page. 
+![Contact Pag](assets/readme/contact-page-1.jpg)
+![Contact Page footer](assets/readme/contact-page-2.jpg)
 
 ### General features on each page
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+The navigation bar and footer is reappearing on all three pages of my website.
 
 I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
 
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+I would like to add a calendar to the contact page so a visitor can view when the studio is available to rent. I would also like to implement another button at the contact form to select what dates you wish to stay. 
+
+Another page with more detailed information about what hardware and software they have available at the studio, might be something I would add in the future too.
 
 ### Accessibility
 
@@ -159,9 +174,13 @@ Place instructions on how to clone your project here.
 
 ## Testing
 
+### Known bugs
+
+There are two bugs in particular that I have noticed and not yet been able to correct. They are centering issues with the footer content and hero text. I plan on implementing flexbox to both the hero image and text, as well as the footer content, to make the text and fonts fixed in the center. 
+
 ### Solved Bugs
 
-I've encountered several "bugs" on the journey of making this website, and most of them I've corrected by seeking help online or from my mentor Mitko. 
+I've encountered several bugs on the journey of making this website, and most of them I've corrected by seeking help online or from my mentor Mitko. 
 
 Some bugs I've encountered and fixed: 
 
