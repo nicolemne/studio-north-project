@@ -7,7 +7,7 @@ The reason I decided to go with this idea is because of my passion for music, as
 ---
 ![amiresponsive](assets/readme/amiresponsive.jpg)
 
-[View the live site here](https://nicolemne.github.io/project-portfolio-1/)
+[View live site on Github Pages](https://nicolemne.github.io/project-portfolio-1/)
 
 ---
 
@@ -157,7 +157,7 @@ Header image with tint and slightly cropped:
 
 ### Deployment
 
-[View the live site here](https://nicolemne.github.io/project-portfolio-1/)
+[View live site on Github Pages](https://nicolemne.github.io/project-portfolio-1/)
 
 ### Local Development
 
