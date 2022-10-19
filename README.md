@@ -98,16 +98,16 @@ I ended up not going for the hamburger navigation menu nor the calendar button i
 
 My website contains 3 pages, index.html which is the home page, gallery.html is the gallery page, and contact.html is the contact page. 
 
-### This is what the finished look of the Home page. 
+### Finished look of the Home page
 ![Home Page](assets/readme/home-page.jpg)
 
-### This is what the finished look of the Gallery page. 
+### Finished look of the Gallery page
 Because my screen is a little bit bigger I've had to crop the images to get full view. 
 ![Gallery Top](assets/readme/gallery-page-1.jpg)
 ![Gallery Middle](assets/readme/gallery-page-2.jpg)
 ![Gallery Bottom](assets/readme/gallery-page-3.jpg)
 
-### This is what the finished look of the Contact page. 
+### Finished look of the Contact page
 ![Contact Pag](assets/readme/contact-page-1.jpg)
 ![Contact Page footer](assets/readme/contact-page-2.jpg)
 
