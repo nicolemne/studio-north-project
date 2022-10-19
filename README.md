@@ -88,7 +88,7 @@ As the studio is located in a rural forest area in northern Sweden, I've chosen 
 
 The Wireframes I've made was created for desktop and mobile view. The original design I made has changed slightly, and the images below represent the new changes - which I have also tried my best to implement on the live site. 
 
-I ended up not going for the hamburger navigation menu nor the calendar button in the end and settled for just the submit button and the regular navigation menu.
+I ended up not going for the hamburger navigation menu nor the calendar button in the end and settled for just the submit button and the regular navigation menu. I also rearranged the mobile view for the Home page (index.html), showing the picture of the house first, and the about us section second in the column.
 
 ![Wireframe Home Page](assets/readme/wireframes-home.png)
 ![Wireframe Gallery Page](assets/readme/wireframes-gallery.png)
