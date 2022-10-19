@@ -132,10 +132,6 @@ I have tried my best to be mindful of accessibility, and the steps I've taken fo
 - Thought of a good contrast throughout the website
 - Semantic HTML
 
-Have you chosen fonts that are dyslexia/accessible friendly?
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
-
 ## Technologies Used
 
 ### Languages Used
@@ -222,7 +218,7 @@ The help I've used with syntax and formatting, please see links and description 
 
 ### Content
 
-I have written all content on the website. All of it being made up for the educational purpose, as this is not a real studio for hire. My boyfriend Daniel has helped me with a descriptive text in the paragraph "About us". 
+I have written most content on the website. All of it being made up for the educational purpose, as this is not a real studio for hire. My boyfriend Daniel has helped me with a descriptive text in the paragraph "About us". Some code has been borrowed from other authors, please see Code Used.
 
 ###  Media
 
