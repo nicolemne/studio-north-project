@@ -202,8 +202,6 @@ Some bugs I've encountered and fixed:
   + Actual behaviour: Divs position was on top of each other or to the side
   + Fix: Flexbox
 
-
-
 ## Credits
 
 The Love Running project has been a design inspiration for my own project.
@@ -217,6 +215,7 @@ The help I've used with syntax and formatting, please see links and description 
 - [Cursor in the middle of text area](https://stackoverflow.com/questions/9070924/cursor-in-the-middle-of-a-textarea-box)
 - [How to center div inbetween two divs](https://stackoverflow.com/questions/3172738/centering-a-div-between-one-thats-floated-right-and-one-thats-floated-left)
 - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Date input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date)
 
 ### Content
 
