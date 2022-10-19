@@ -96,7 +96,7 @@ I ended up not going for the hamburger navigation menu nor the calendar button i
 
 ## Features
 
-My website contains 3 pages, index.html which is the home page, gallery.html is my gallery page, and contact.html is the contact page. 
+My website contains 3 pages, index.html which is the home page, gallery.html is the gallery page, and contact.html is the contact page. 
 
 ### This is what the finished look of the Home page. 
 ![Home Page](assets/readme/home-page.jpg)
