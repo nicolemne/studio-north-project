@@ -115,7 +115,7 @@ Because my screen is a little bit bigger I've had to crop the images to get full
 
 The navigation bar and footer is reappearing on all three pages of my website.
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+![amiresponsive](assets/readme/amiresponsive.jpg)
 
 ### Future Implementations
 
