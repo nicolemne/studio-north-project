@@ -1,6 +1,6 @@
 # Studio North
 
-Studio North is an (imaginary) recording studio located in Northern Sweden. This studio is designed to be the perfect oasis for recording music without distractions. The website features a Home page with an 'About us' section, a Gallery page to view photos of the studio itself as well as the locale and surrounding nature. At the Contacts page there is contact information as well as a section to request a booking.
+Studio North is an (imaginary) recording studio located in Northern Sweden. This studio is designed to be the perfect oasis for recording music without distractions. The website features a Home page with an 'About us' section, a Gallery page to view photos of the studio itself as well as the surroundings. The Contacts page contains the contact information for the studio, as well as a section to request a booking.
 
 The reason I decided to go with this idea is because of my passion for music, as well as fond memories of my time as an intern in a music studio located in my hometown of Gothenburg, Sweden.
 
@@ -49,7 +49,7 @@ The reason I decided to go with this idea is because of my passion for music, as
 
 ## User Experience (UX)
 
-Visitors who wish to hire a music studio to record their own ideas should find this website modern and inticing. My goal is for the visitor feel like this is a professional and luxury studio, with a beautiful location, and all neccessary supplies for recording an album in a distraction-free environment.
+Visitors who wish to hire a music studio to record their own ideas should find this website modern and inticing. My goal is for the visitor to feel like this is a professional and luxury studio, with a beautiful location, and all the neccessary equipment for recording an album in a distraction-free environment.
 
 A description about the studio is accessible on the front page, and if the visitor wants to see more visual content, the gallery page provides the viewer with an idea of what the studio looks like, as well as the surrounding area. 
 
@@ -61,7 +61,7 @@ The website is viewable from different screen sizes, so every user can browse th
 
 For first time viewers I wanted to make the website visually inticing as well as having a clear understanding what the website is about. Together with the hero image and text, side images and introduction text, the first page quickly suggests that this is a music recording studio. 
 
-If the front page has piqued the viewers interest, and they would like to learn more about the studio, they have a gallery to visit, as well as social media links, which are both easy accessible. 
+If the front page has piqued the viewers interest and they would like to learn more about the studio, they can visit the studio gallery, as well as the social media links in the footer, which are both easily accessible. 
 
 ## Design
 
@@ -82,7 +82,7 @@ We can see Raleway being used on the hero image "Studio North". Pathway Gothic O
 
 ### Imagery
 
-As the studio is located in a rural forest-y area in northern Sweden, I've chosen to use images that gives a warm and earthy feel. 
+As the studio is located in a rural forest area in northern Sweden, I've chosen to use images that gives a warm and earthy feel. 
 
 ### Wireframes
 
@@ -120,7 +120,7 @@ The navigation bar and footer is reappearing on all three pages of my website.
 
 I would like to add a calendar to the contact page so a visitor can view when the studio is available to rent.
 
-Another page with more detailed information about what hardware and software they have available at the studio, might be something I would add in the future too.
+Another page with more detailed information about what hardware and software they have available at the studio, might be something I would like to add in the future too.
 
 ### Accessibility
 
@@ -128,7 +128,7 @@ I have tried my best to be mindful of accessibility, and the steps I've taken fo
 
 - Descriptive information about every image in the gallery page
 - Aria labels to the social media links
-- Thought of a good contrast throughout the website
+- Chose a good colour contrast throughout the website
 - Semantic HTML
 
 ## Technologies Used
@@ -145,7 +145,7 @@ Wireframes were created with Balsamic.
 
 For the iframe I've used https://google-map-generator.com/.
 
-The images I've converted from avif files to jpg with Microsoft Paint (as I thought that would make the images take up less data but I might have gotten it wrong). The header image I've also used Canva for adding a colour tint. Original header picture below. 
+I've converted all images from avif files to jpg with Microsoft Paint. The header image I've also used Canva for adding a colour tint. Original header picture below. 
 
 ![Original header image](https://images.unsplash.com/photo-1612344441107-ef12287e4872?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80)
 
@@ -203,7 +203,7 @@ Some bugs I've encountered and fixed:
   + Fix: Add code transform: translate(1%, -175%);
 
 + Footer
-  + Description: Footer not sticking to bottom of page
+  + Description: Footer not sticking to bottom of the page
   + Expected behaviour: Footer sticking to the bottom page of the html
   + Actual behaviour: Padding between bottom of page and footer
   + Fix: Add position: relative; and top 50px as well as top: 120px for media query 1500px
@@ -244,4 +244,4 @@ I would like to thank and acknowledge the following people, who has showed inval
 - Dan Ford, boyfriend and biggest supporter.
 - Mitko Bachvarov, my mentor at Code Institute. 
 - Kera Cudmore, for the README webinar and this README template.
-- Malin, at Tjejer Kodar.
+- Malin, from the Swedish Slack community Tjejer Kodar.
