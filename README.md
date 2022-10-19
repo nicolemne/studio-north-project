@@ -76,8 +76,7 @@ I've generated a color palette based off of the hero image, which I thought woul
 ### Typography
 
 I wanted to go with a sleek typography, and decided to go with Bebas Neue, Pathway Gothic One and Raleway, all of which I thought fitted well together. 
-
-We can see Raleway being used on the hero image "Studio Northern Lights". Pathway Gothic One is used as paragraph text, and Bebas Neue as lesser headers.
+We can see Raleway being used on the hero image "Studio North". Pathway Gothic One is used as paragraph text, and Bebas Neue as lesser headers.
 
 ![Typography](assets/readme/google-fonts.png)
 
