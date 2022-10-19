@@ -116,7 +116,7 @@ I then like to add a screenshot of each page of the site here, i use [amirespons
 
 ### Future Implementations
 
-I would like to add a calendar to the contact page so a visitor can view when the studio is available to rent. I would also like to implement another button at the contact form to select what dates you wish to stay. 
+I would like to add a calendar to the contact page so a visitor can view when the studio is available to rent.
 
 Another page with more detailed information about what hardware and software they have available at the studio, might be something I would add in the future too.
 
