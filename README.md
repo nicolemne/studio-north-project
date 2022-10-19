@@ -9,8 +9,6 @@ The reason I decided to go with this idea is because of my passion for music, as
 
 [View the live site here](https://nicolemne.github.io/project-portfolio-1/)
 
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
-
 ---
 
 ## CONTENTS
@@ -51,7 +49,13 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
 
 ## User Experience (UX)
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
+Visitors who wish to hire a music studio to record their own ideas should find this website modern and inticing. My goal is for the visitor feel like this is a professional and luxury studio, with a beautiful location, and all neccessary supplies for recording an album in a distraction-free environment.
+
+A description about the studio is accessible on the front page, and if the visitor wants to see more visual content, the gallery page provides the viewer with an idea of what the studio looks like, as well as the surrounding area. 
+
+If you wish to contact the studio or make a request, the contact page provides all information needed. 
+
+The website is viewable from different screen sizes, so every user can browse the the site.
 
 ### User Stories
 
