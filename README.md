@@ -7,7 +7,7 @@ The reason I decided to go with this idea is because of my passion for music, as
 ---
 ![amiresponsive](assets/readme/amiresponsive.jpg)
 
-[View live site on Github Pages](https://nicolemne.github.io/project-portfolio-1/)
+[View live site on Github Pages](https://nicolemne.github.io/studio-north-project/)
 
 ---
 
